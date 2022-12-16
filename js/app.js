@@ -1,5 +1,5 @@
 let arr = ["0", "1", "2", "3", "4"]; 
-let count = 0; 
+let count = -1; 
 let timer; 
  
 const buttonForward = document.querySelector(".forward"); 
