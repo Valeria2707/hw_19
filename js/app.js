@@ -28,7 +28,7 @@ function showSlides() {
 } 
  
 function changePhotoForward() { 
-  clearInterval(timer); 
+  clearTimeout(timer); 
     count ++; 
 
     if (count === arr.length) { 
@@ -41,7 +41,7 @@ function changePhotoForward() {
 } 
  
 function changePhotoBack() { 
-  clearInterval(timer);
+  clearTimeout(timer);
   count --; 
 
   if (count === -1) { 
